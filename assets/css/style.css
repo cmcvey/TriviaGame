@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Harry Potter';
+  
+  src: url('harryp.ttf')  format('truetype'); /* Safari, Android, iOS */
+       
+}
+
+body {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Harry Potter';
+	font-size: 100px;
+	color: gold;
+	margin-top: 50px;
+}
+
+[id^=section-], #correct, #incorrect {
+	display: none;
+}
+
+#correct, #incorrect {
+	font-size: 75px;
+	font-family: "Harry Potter";
+	color: gold;
+	text-align: center;
+}
+
+#section-start {
+	display: block;
+}
+
+#play-game, #play-again {
+	margin: 100px;
+	color: black;
+	background-color: gold;
+}
+
+#section-gameover {
+	margin: 100px;
+}
+
+#timer {
+	font-size: 20px;
+}
+
+#question {
+	font-size: 45px;
+	color: gold;
+}
+
+ul {
+	padding: 0;
+	font-size: 35px;
+	color: #ccc;
+}
+
+li.answer {
+	list-style: none;
+	cursor: pointer;
+
+}
+
+li.answer:hover {
+	background-color: #eee;
+	color: black;
+}
